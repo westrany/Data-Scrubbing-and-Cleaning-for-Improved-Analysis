@@ -78,8 +78,6 @@ By completing this project using DataCleaner, you will showcase your ability to 
 
 This project structure adheres to the principles of clear objectives, high-quality data, robust algorithms, interpretability, continuous improvement, cross-functional collaboration, and ethical considerations outlined in the guidelines, while leveraging the unique features of DataCleaner for data cleaning and transformation.  
 
-### Research  
+## Research  
 
 [My Favorite Python Libraries for Data Cleaning in 2023](https://medium.com/@tubelwj/my-favorite-python-libraries-for-data-cleaning-in-2023-c475830dacbb)
-
-*MIT License, © Maria Fitas 2024*
