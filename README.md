@@ -1,4 +1,4 @@
-# Data Scrubbing and Cleaning for Improved Analysis with DataCleaner
+![image](https://github.com/westrany/Data-Scrubbing-and-Cleaning-for-Improved-Analysis-with-DataCleaner/assets/69496007/17e7147a-969f-4717-a7e2-f04e9084f65a)# Data Scrubbing and Cleaning for Improved Analysis with DataCleaner
 
 ![image](https://github.com/westrany/Data-Scrubbing-and-Cleaning-for-Improved-Analysis-with-Python/assets/69496007/8b8c009c-dcb5-4c1e-bcb8-cc3821423902)
 
@@ -10,7 +10,36 @@ The project aims to prepare raw datasets for analysis by addressing inconsistenc
 
 ## Dataset Selection  
 
-The dataset chosen for this project is from my personal Spotify.
+The dataset chosen for this project is an unclean copy of my GoodReads dataset (as for 2024/02/11) in csv format with 386 entries. Data types included are integers, floats, strings, data/time and booleans (both in TRUE/FALSE and 0/1 formats). The following table illustrates each section, its data type and entry example:  
+
+| Column Title                  | Data Type      | Example                                                        |
+|-------------------------------:|:----------------:|:----------------------------------------------------------------:|
+| Book Id                       | Integer        | 50617439                                                       |
+| Title                         | String         | Poetry Scraps                                                  |
+| Author                        | String         | Rowan Skye                                                     |
+| Author l-f                    | String         | Skye, Rowan                                                    |
+| Additional Authors            | String         | Miguel Serras Pereira                                          |
+| ISBN                          | String         | 9896419884                                                     |
+| ISBN13                        | String         | 9789896419882                                                  |
+| My Rating                     | Float          | 5                                                              |
+| Average Rating                | Float          | 4.3                                                              |
+| Publisher                     | String         | Relógio D'Água Editores                                        |
+| Binding                       | String         | Paperback                                                      |
+| Number of Pages               | Integer        | 152                                                            |
+| Year Published                | Integer        | 2020                                                           |
+| Original Publication Year     | Integer        | 2005                                                           |
+| Date Read                     | Date (DD-MM-YYYY)         | 22/01/2024                                          |
+| Date Added                    | Date (DD-MM-YYYY)          | 30/01/2024                                         |
+| Bookshelves                   | String         | to-read                                                        |
+| Bookshelves with positions    | String         | to-read (#179)                                                 |
+| Exclusive Shelf               | String         | to-read                                                        |
+| My Review                     | String         | Mind-blown in space                                            |
+| Spoiler                       | Boolean (String)         | FALSE                                                |
+| Private Notes                 | String         | gift from Hufflepuff                                           |
+| Read Count                    | Integer        | 3                                                              |
+| Owned Copies                  | Boolean (Integer)        | 1                                                    |  
+
+This is a good dataset to clean and analyse as it contains missing values, inconsistent formats and outliers. Since GoodReads notifies you when there are duplicate entries, which meant I had no duplicate entires, I asked an AI to add 20 random duplicate entries to the data set for the purpuse of this project.
 
 ## Tools  
 
