@@ -45,7 +45,13 @@ This is a good dataset to clean and analyse as it contains missing values, incon
 
 ## Tools  
 
-• DataCleaner library for data manipulation and cleaning.
+• **DataCleaner:** a third-party library based on Pandas DataFrame, specifically designed to address data quality issues such as missing values, duplicate entries, inconsistent formats, outliers, and other data inconsistencies. It provides functionalities for automated data cleaning, transformation, and validation, making it easier to prepare raw datasets for analysis by ensuring data quality and consistency. 
+
+• **Matplotlib:** A comprehensive library for creating static, animated, and interactive visualizations in Python. It provides a wide variety of plotting functions to visualize data in different formats, such as line plots, scatter plots, histograms, and bar plots. It's often used for customizing and fine-tuning visualizations created with Seaborn or other libraries.
+
+• **Pandas:** Used for data manipulation and analysis. It provides data structures and functions to work with structured data efficiently, such as loading datasets, handling missing values, and performing operations like filtering, grouping, and merging.
+
+• **Seaborn:** Built on top of Matplotlib, Seaborn is a Python visualization library used for creating informative and attractive statistical graphics. It provides a high-level interface for drawing attractive and informative statistical graphics, including heatmaps, distribution plots, and regression plots.
 
 ## Key Steps  
 
