@@ -65,8 +65,12 @@ This is a good dataset to clean and analyse as it contains missing values, incon
    
       • Explore the structure of the datasets (columns, data types, size)
    
-      • Check for missing values, duplicate entries, and outliers.
-   
+      • Used Pandas to identify missing values in the dataset, plotted a visual representation using Seaborn.
+
+      • Used Pandas to identify and print number of duplicate entries in the dataset.  
+
+      • Used Matplotlib's descriptive statistics to identify outliers in numerical columns, and Seaborn's visualization techniques to plot boxplots to better analyse said values.
+
       • Identify any inconsistencies or errors in data formats.
    
 3. **Data Cleaning:**
