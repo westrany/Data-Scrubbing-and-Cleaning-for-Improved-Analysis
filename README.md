@@ -39,7 +39,9 @@ The dataset chosen for this project is an unclean copy of my GoodReads dataset (
 | Read Count                    | Integer        | 3                                                              |
 | Owned Copies                  | Boolean (Integer)        | 1                                                    |  
 
-This is a good dataset to clean and analyse as it contains missing values, inconsistent formats and outliers. Since GoodReads notifies you when there are duplicate entries, which meant I had no duplicate entires, I asked an AI to add 20 random duplicate entries to the data set for the purpuse of this project.
+This is a good dataset to clean and analyse as it contains missing values, inconsistent formats and outliers.  
+
+*Disclaimer: Since GoodReads notifies you when there are duplicate entries, which meant I had no duplicate entries, I asked an AI to add 20 random duplicate entries to the data set for the purpose of this project.*
 
 ## Tools  
 
