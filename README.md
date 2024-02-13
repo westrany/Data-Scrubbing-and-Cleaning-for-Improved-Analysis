@@ -10,7 +10,7 @@ The project aims to prepare raw datasets for analysis by addressing inconsistenc
 
 ## Dataset Selection  
 
-The dataset chosen for this project is an unclean copy of my GoodReads dataset (as for 2024/02/11) in csv format with 406 entries. Data types included are integers, floats, strings, data/time and booleans (both in TRUE/FALSE and 0/1 formats). The following table illustrates each section, its data type and entry example:  
+The dataset chosen for this project is an unclean copy of my [GoodReads Small Dataset](https://www.kaggle.com/datasets/mariafitas/goodreads-small-dataset) (as for 2024/02/11) in csv format with 406 entries. Data types included are integers, floats, strings, data/time and booleans (both in TRUE/FALSE and 0/1 formats). The following table illustrates each section, its data type and entry example:  
 
 | Column Title                  | Data Type      | Example                                                        |
 |-------------------------------:|:----------------:|:----------------------------------------------------------------:|
