@@ -63,7 +63,7 @@ This is a good dataset to clean and analyse as it contains missing values, incon
    
 2. **Initial Data Assessment:**
    
-      • Explore the structure of the datasets (columns, data types, size)
+      • Used Pandas to explore the structure of the datasets (columns, data types, dataframe size) and to visualise the first few columns of the dataset. IPython.display was used to render the DataFrame in a nicer format.
    
       • Used Pandas to identify missing values in the dataset, plotted a visual representation using Seaborn.
 
