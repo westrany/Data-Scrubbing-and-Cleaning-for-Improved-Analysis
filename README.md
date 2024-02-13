@@ -55,7 +55,11 @@ This is a good dataset to clean and analyse as it contains missing values, incon
 
 ## Key Steps  
 
-1. **Data Collection:** Download the chosen datasets and load them into the Python environment.
+1. **Data Collection:**  
+
+      • Downloaded the chosen dataset from [Kaggle](https://www.kaggle.com/datasets/mariafitas/goodreads-small-dataset) and loaded it into a Jupyter Notebook using Pandas.   
+
+      • This involved reading CSV files containing the datasets into pandas DataFrames, enabling further analysis and manipulation of the data.
    
 2. **Initial Data Assessment:**
    
