@@ -1,4 +1,4 @@
-![image](https://github.com/westrany/Data-Scrubbing-and-Cleaning-for-Improved-Analysis-with-DataCleaner/assets/69496007/17e7147a-969f-4717-a7e2-f04e9084f65a)# Data Scrubbing and Cleaning for Improved Analysis with DataCleaner
+# Data Scrubbing and Cleaning for Improved Analysis with DataCleaner
 
 ![image](https://github.com/westrany/Data-Scrubbing-and-Cleaning-for-Improved-Analysis-with-Python/assets/69496007/8b8c009c-dcb5-4c1e-bcb8-cc3821423902)
 
