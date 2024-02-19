@@ -1,10 +1,10 @@
-# Data Scrubbing and Cleaning for Improved Analysis with DataCleaner
+# Data Scrubbing and Cleaning for Improved Analysis
 
 ![image](https://github.com/westrany/Data-Scrubbing-and-Cleaning-for-Improved-Analysis-with-Python/assets/69496007/8b8c009c-dcb5-4c1e-bcb8-cc3821423902)
 
 ## Objective  
 
-Demonstrate proficiency in data cleaning techniques using DataCleaner, a third-party library based on Pandas DataFrame that employs a distinctive method, merging conventional data cleaning processes and automating them, resulting in significant time and effort savings.  
+Demonstrate proficiency in data cleaning techniques.  
 
 The project aims to prepare raw datasets for analysis by addressing inconsistencies, missing values, outliers, and other data quality issues.
 
