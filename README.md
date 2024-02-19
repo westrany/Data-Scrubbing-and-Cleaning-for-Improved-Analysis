@@ -1,6 +1,6 @@
 # Data Scrubbing and Cleaning for Improved Analysis
 
-![image](https://github.com/westrany/Data-Scrubbing-and-Cleaning-for-Improved-Analysis-with-Python/assets/69496007/8b8c009c-dcb5-4c1e-bcb8-cc3821423902)
+![image](![image](https://github.com/westrany/Data-Scrubbing-and-Cleaning-for-Improved-Analysis/assets/69496007/9734c233-c8f8-400a-96b1-327bb3215bf3)
 
 ## Objective  
 
