@@ -77,9 +77,9 @@ This is a good dataset to clean and analyse as it contains missing values, incon
    
 3. **Data Cleaning:**
    
-      • Use DataCleaner's functionality to replace missing values with the mode or median on a column-wise basis.
+      • Used DataCleaner's functionality to replace missing values with the mode or median on a column-wise basis.
    
-      • Encode categorical variables using appropriate methods provided by DataCleaner.  
+      • Encoded categorical variables using appropriate methods provided by DataCleaner.  
 
       • Remove rows with missing values using DataCleaner's automated features.  
 
@@ -123,6 +123,6 @@ By completing this project using DataCleaner, you will showcase your ability to 
 
 This project structure adheres to the principles of clear objectives, high-quality data, robust algorithms, interpretability, continuous improvement, cross-functional collaboration, and ethical considerations outlined in the guidelines, while leveraging the unique features of DataCleaner for data cleaning and transformation.  
 
-## Research and Sources   
+## Research   
 
 [My Favorite Python Libraries for Data Cleaning in 2023](https://medium.com/@tubelwj/my-favorite-python-libraries-for-data-cleaning-in-2023-c475830dacbb)
