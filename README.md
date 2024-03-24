@@ -2,7 +2,9 @@
 
 ![image](https://github.com/westrany/Data-Scrubbing-and-Cleaning-for-Improved-Analysis/assets/69496007/9734c233-c8f8-400a-96b1-327bb3215bf3)
 
-*Run this command on CMD before running notebook to avoid data rate error: jupyter notebook --NotebookApp.iopub_data_rate_limit=1000000000*  
+*Run this command on CMD before running notebook to avoid data rate error:  
+
+jupyter notebook --NotebookApp.iopub_data_rate_limit=1000000000*  
 
 *If using Notebook through Anaconda, run the previous command on Anaconda's CMD*
 
