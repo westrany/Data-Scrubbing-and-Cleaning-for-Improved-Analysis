@@ -57,13 +57,13 @@ This is a good dataset to clean and analyse as it contains missing values, incon
 
 ## Key Steps  
 
-A. **Data Collection:**  
+1. **Data Collection:**  
 
       • Downloaded the chosen dataset from [Kaggle](https://www.kaggle.com/datasets/mariafitas/goodreads-small-dataset) and loaded it into a Jupyter Notebook using Pandas. (For conveniency, the dataset has been added to this repository as [unclean_goodreads_library_export.csv](https://github.com/westrany/Data-Scrubbing-and-Cleaning-for-Improved-Analysis/blob/main/unclean_goodreads_library_export.csv))   
 
       • This involved reading CSV files containing the datasets into pandas DataFrames, enabling further analysis and manipulation of the data.
    
-B. **Initial Data Assessment:**
+3. **Initial Data Assessment:**
    
       • Used Pandas to explore the structure of the datasets (columns, data types, dataframe size) and to visualise the first few columns of the dataset. IPython.display was used to render the DataFrame in a nicer format.
    
@@ -75,7 +75,7 @@ B. **Initial Data Assessment:**
 
       • Identify any inconsistencies or errors in data formats.
    
-C. **Data Cleaning:**
+4. **Data Cleaning:**
    
       • Used DataCleaner's functionality to replace missing values with the mode or median on a column-wise basis.
    
@@ -86,13 +86,13 @@ C. **Data Cleaning:**
       • Apply automatic discovery and correction of common data issues such as outliers and format errors using DataCleaner's built-in algorithms.  
 
    
-D. **Data Transformation:**
+5. **Data Transformation:**
    
       • Perform data transformations as necessary (e.g., normalization, log transformation), leveraging DataCleaner's capabilities.
    
       • Create derived features or variables that might enhance analysis.
    
-E. **Data Validation:**
+8. **Data Validation:**
    
       • Validate the cleaned datasets to ensure that data quality issues have been addressed effectively.
    
@@ -100,7 +100,7 @@ E. **Data Validation:**
    
       • Check for any unintended consequences of data cleaning operations.
    
-F. **Documentation and Reporting:**
+10. **Documentation and Reporting:**
     
       • Document the data cleaning process, including the steps taken and rationale behind decisions, utilizing DataCleaner's visual interface if applicable.
     
