@@ -63,19 +63,27 @@ This is a good dataset to clean and analyse as it contains missing values, incon
 
       • This involved reading CSV files containing the datasets into pandas DataFrames, enabling further analysis and manipulation of the data.
    
-3. **Initial Data Assessment:**
+2. **Initial Data Assessment:**
    
-      • Used Pandas to explore the structure of the datasets (columns, data types, dataframe size) and to visualise the first few columns of the dataset. IPython.display was used to render the DataFrame in a nicer format.
+      • Displayed dataset structures including columns, data types and dataframe size.  
+
+      • Converted date columns ('Date Read' and 'Date Added') to DD/MM/YYYY format. Also converted the 'Spoiler' column to boolean type for better analysis.  
+
+      • Classified 'ISBN' and 'ISBN13' columns as categorical as they are unique identifiers with no inherent order.  
+
+      •  Identified categorical and numerical columns in the dataset.   
+
+      • Calculated and visualized missing values in the dataset using a heatmap.   
+
+      • Identified and displayed duplicate entries in the dataset.  
+
+      •  Checked for unique values in categorical and numerical columns, comparing the number of unique values per column to total values.   
+
+      • Checked for outliers in relevant columns using boxplots and provided summary statistics.    
+
+      • Reconfirmed the structure of the dataset to ensure all changes were applied correctly.
    
-      • Used Pandas to identify missing values in the dataset, plotted a visual representation using Seaborn.
-
-      • Used Pandas to identify and print number of duplicate entries in the dataset.  
-
-      • Used Matplotlib's descriptive statistics to identify outliers in numerical columns, and Seaborn's visualization techniques to plot boxplots to better analyse said values.
-
-      • Identify any inconsistencies or errors in data formats.
-   
-4. **Data Cleaning:**
+3. **Data Cleaning:**
    
       • Used DataCleaner's functionality to replace missing values with the mode or median on a column-wise basis.
    
@@ -86,13 +94,13 @@ This is a good dataset to clean and analyse as it contains missing values, incon
       • Apply automatic discovery and correction of common data issues such as outliers and format errors using DataCleaner's built-in algorithms.  
 
    
-5. **Data Transformation:**
+4. **Data Transformation:**
    
       • Perform data transformations as necessary (e.g., normalization, log transformation), leveraging DataCleaner's capabilities.
    
       • Create derived features or variables that might enhance analysis.
    
-8. **Data Validation:**
+5. **Data Validation:**
    
       • Validate the cleaned datasets to ensure that data quality issues have been addressed effectively.
    
@@ -100,7 +108,7 @@ This is a good dataset to clean and analyse as it contains missing values, incon
    
       • Check for any unintended consequences of data cleaning operations.
    
-10. **Documentation and Reporting:**
+6. **Documentation and Reporting:**
     
       • Document the data cleaning process, including the steps taken and rationale behind decisions, utilizing DataCleaner's visual interface if applicable.
     
