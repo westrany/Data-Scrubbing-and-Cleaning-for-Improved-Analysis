@@ -50,13 +50,17 @@ This is a good dataset to clean and analyse as it contains missing values, incon
 
 *Disclaimer: Since GoodReads notifies you when there are duplicate entries, which meant I had no duplicate entries, I asked an AI to add 20 random duplicate entries to the data set for the purpose of this project.*
 
-## Tools  
+## Libraries Used  
 
-• **DataCleaner:** a third-party library based on Pandas DataFrame, specifically designed to address data quality issues such as missing values, duplicate entries, inconsistent formats, outliers, and other data inconsistencies. It provides functionalities for automated data cleaning, transformation, and validation, making it easier to prepare raw datasets for analysis by ensuring data quality and consistency.   
+• **Display from IPython.display:** used to render the DataFrame in a nicer format.  
 
-• **Display from IPython.display:** used to render the DataFrame in a nicer format.
+• **LabelEncoder from sklearn.preprocessing:** used to normalize labels. It can also be used to transform non-numerical labels (as long as they are hashable and comparable) to numerical labels.
 
-• **Matplotlib:** A comprehensive library for creating static, animated, and interactive visualizations in Python. It provides a wide variety of plotting functions to visualize data in different formats, such as line plots, scatter plots, histograms, and bar plots. It's often used for customizing and fine-tuning visualizations created with Seaborn or other libraries.
+• **Matplotlib:** A comprehensive library for creating static, animated, and interactive visualizations in Python. It provides a wide variety of plotting functions to visualize data in different formats, such as line plots, scatter plots, histograms, and bar plots. It's often used for customizing and fine-tuning visualizations created with Seaborn or other libraries.  
+
+• **Numpy:** used for working with arrays.  
+
+• **OS:** used when we needed to interact with the operating system to save data, check if there are files with the same name and delete them before saving the new data.
 
 • **Pandas:** Used for data manipulation and analysis. It provides data structures and functions to work with structured data efficiently, such as loading datasets, handling missing values, and performing operations like filtering, grouping, and merging.
 
