@@ -52,6 +52,8 @@ This is a good dataset to clean and analyse as it contains missing values, incon
 
 ## Libraries Used  
 
+• **category_encoders:** used to encode categorical data.
+
 • **Display from IPython.display:** used to render the DataFrame in a nicer format.  
 
 • **LabelEncoder from sklearn.preprocessing:** used to normalize labels. It can also be used to transform non-numerical labels (as long as they are hashable and comparable) to numerical labels.
